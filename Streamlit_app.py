@@ -10,11 +10,6 @@ st.set_page_config(page_title=" Iris Dashboard",
                    layout="wide"
 )
 
-# Path to the CSV file
-csv_file_path = "C:/Users/User22/Desktop/Deployment_913/Data/Iris.csv"
-# Read the CSV file into a DataFrame
-df = pd.read_csv(csv_file_path)
-
 st.sidebar.header("Description")
 st.sidebar.markdown("""The Iris dataset is a classic dataset in 
 machine learning containing 150 instances
